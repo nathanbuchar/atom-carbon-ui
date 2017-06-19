@@ -1,0 +1,14 @@
+@title-bar-height: 27px;
+
+.custom-title-bar {
+  .title-bar {
+    height: @title-bar-height - 1px; // remove 1px since there is no border
+    border-bottom: none;
+    background-color: @level-3-color;
+    font-size: @font-size;
+  }
+
+  &.fullscreen .title-bar {
+    margin-top: @title-bar-height * -1;
+  }
+}
