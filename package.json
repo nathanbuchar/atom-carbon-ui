@@ -1,7 +1,7 @@
 {
   "name": "carbon-ui",
   "theme": "ui",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A minimal gray UI theme based on the Spacegray theme for Sublime by Gadzhi Kharkharov.",
   "license": "MIT",
   "repository": "https://github.com/nathanbuchar/atom-carbon-ui",
