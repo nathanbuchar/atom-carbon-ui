@@ -9,7 +9,7 @@
 .tab-bar {
   position: relative;
   height: @ui-tab-height;
-  // box-shadow: inset 0 -1px 0 @tab-border-color;
+  box-shadow: inset 0 -1px 0 @tab-border-color;
   background: @tab-bar-background-color;
   overflow-x: auto;
   overflow-y: hidden;
@@ -37,8 +37,7 @@
     color: @tab-text-color;
     background-color: @tab-background-color;
     box-shadow: inherit;
-    cursor: pointer;
-    // border-left: @tab-border;
+    border-left: @tab-border;
     &:hover {
       background-color: mix(@tab-background-color, @tab-background-color-active);
     }
@@ -52,10 +51,10 @@
     }
     &:last-of-type {
       // use box-shadow to not take up any space
-      // box-shadow: inset 0 -1px 0 @tab-border-color, 1px 0 0 @base-border-color;
+      box-shadow: inset 0 -1px 0 @tab-border-color, 1px 0 0 @base-border-color;
     }
     &.active:last-of-type {
-      // box-shadow: 1px 0 0 @base-border-color;
+      box-shadow: 1px 0 0 @base-border-color;
     }
 
 
@@ -92,6 +91,7 @@
       overflow: hidden;
       transform: scale(0);
       transition: transform .08s;
+      // background: @tool-panel-background-color;
       cursor: pointer;
       &:hover {
         color: white;

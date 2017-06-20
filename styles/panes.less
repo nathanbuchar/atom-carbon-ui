@@ -12,22 +12,13 @@ atom-pane-container {
     //   border-right-color: darken(@app-background-color, 2%);;
     // }
 
-    &:focus {
-      background-color: darken(@app-background-color, 3%);
-
-      &:not([data-active-item-name]) {
-        border-right-color: darken(@app-background-color, 3%);;
-      }
-    }
+    // &:focus {
+    //   background-color: @base-border-color;
+    // }
 
     .item-views {
-      // prevent atom-text-editor from leaking ouside might improve performance
+      // prevent atom-text-editor from leaking outside might improve performance
       overflow: hidden;
-    }
-
-    atom-dock & {
-      background-color: @app-background-color;
-      border-bottom: none;
     }
   }
 }
