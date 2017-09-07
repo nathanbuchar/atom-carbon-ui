@@ -8,7 +8,7 @@ A dynamic and minimal gray UI theme inspired by [Spacegray](http://kkga.github.i
 **See Also**
 
 - [Carbon Syntax](https://atom.io/themes/carbon-syntax)
-- [Warn Before Quitting](https://atom.io/packages/warn-before-qutting)
+- [Warn Before Quitting](https://atom.io/packages/warn-before-quitting)
 
 **License**
 
